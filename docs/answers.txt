@@ -1,0 +1,61 @@
+2/23/24 went through the GitLab Tutorials.
+9/6/2023 I set up my GitHub Account.
+
+
+
+
+
+1. C:\Users\kathr\assignment2CAREY> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   docs/status.txt
+
+PS C:\Users\kathr\assignment2CAREY> git commit -m "Added status.txt and docs"
+[master c748715] Added status.txt and docs
+ 1 file changed, 9 insertions(+)
+ create mode 100644 docs/status.txt
+PS C:\Users\kathr\assignment2CAREY> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 525 bytes | 525.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Kitkatcarey/assignment2CAREY.git
+   ba55b35..c748715  master -> master
+
+2. There have been 5 commits done to the repository.
+PS C:\Users\kathr\assignment2CAREY> git log
+
+3. The last time the README.md file was edited was by me on Friday February 23 at 5:11pm.
+PS C:\Users\kathr\assignment2CAREY> git log README.md
+
+4. Branches allow you to make changes to the repository without actually changing the original one.
+It also allows for multiple people to work on the project without interfering with each others code.
+
+5. Git log shows the history of commits in the repository, white git status gives information about
+the current state of the working directory and staging area.
+
+6. I would use git log Vehicle.h, to see the commits for that file.
+PS C:\Users\kathr\assignment2CAREY> git log Vehicle.h
+
+7. I would use git log --grep=file.
+PS C:\Users\kathr\assignment2CAREY> git log --grep=file
+commit f4975e5d56ff331762b318bfd12c5236e0299f25
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 25 18:33:08 2019 -0400
+
+    -> Adding an empty README.md file
+
+8. Inheritance is when a child class is created from a parent class, inheriting properties and 
+behaviors fromt the parent. Polymorphism allows objects to take on different forms or behaviors based on context.
+Encapsulation involves bundling data and methods into a single class.
+
+9. In the Dictator and Lieutenants workflow, only the dictator can push to the central repository. In the Integration
+manager workflow,developers can push their own repositories and conflicts are resolved centrally.
+
+9. The Dictator and Lieutenants workflow simplifies descision making and improves scalability by delegating tasks.
